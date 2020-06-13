@@ -9,15 +9,18 @@ class MY_Controller extends CI_Controller {
         
         if (!isset($this->session)){
             $this->load->library('session') or die('Can not load library Session');
+        }        
+        
+        if (empty($this->session->userdata('nik'))) {
+            redirect('auth');
+            exit();
         }
-        
+          
         $this->load->model('users_detail_m');
-        $this->userlib = new Userlib();       
-        
-        $this->data['user_id'] = $this->session->userdata('user_id');
-        
-        $data_users = $this->users_detail_m->get_by(['user_id' => $this->session->userdata('user_id')]);
-        
+        $this->data['nik'] = $this->session->userdata('nik');
+        $this->data['level'] = $this->session->userdata('level');
+        $data_users = $this->users_detail_m->get_by(['nik' => $this->session->userdata('nik')]);
+        //$data_users = $this->users_detail_m->get();
         foreach ($data_users as $data_user){
             $this->data['data_user'] = $data_user;
         }
