@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: May 22, 2020 at 10:11 PM
+-- Generation Time: Jun 13, 2020 at 03:16 PM
 -- Server version: 10.1.44-MariaDB-0ubuntu0.18.04.1
 -- PHP Version: 7.2.24-0ubuntu0.18.04.3
 
@@ -40,7 +40,10 @@ CREATE TABLE `ci_sessions` (
 INSERT INTO `ci_sessions` (`id`, `ip_address`, `timestamp`, `data`) VALUES
 ('04alb6lc4sq6cet9hp1nsnsrlgetjo1g', '::1', 1589099088, '__ci_last_regenerate|i:1589099088;nik|s:1:\"2\";level|s:5:\"Clerk\";'),
 ('05n1ulm6gag5ibed3ad61762kj3i8dq1', '::1', 1588949712, '__ci_last_regenerate|i:1588949712;nik|s:3:\"123\";'),
+('0nl5b51gikgqbjde6mv59jvc0o6aonqk', '::1', 1591005314, '__ci_last_regenerate|i:1591005314;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
+('17q64jp84nfqm2abe139uk6kbcvvmtvv', '::1', 1592020368, '__ci_last_regenerate|i:1592018055;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
 ('1djqtch9f3hbb3cm4f5g69sbkdjut5nj', '::1', 1588492056, '__ci_last_regenerate|i:1588492056;'),
+('1egemvh7vvfhje4v7ohg7eocfvuojeq1', '::1', 1591417436, '__ci_last_regenerate|i:1591417261;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
 ('1ejbjtq2ethk8krnpfllm3v9a30j2ohf', '::1', 1588485118, '__ci_last_regenerate|i:1588485118;'),
 ('1kvbrk4o4n3hf6ehbqobnc4r2atbn1le', '::1', 1588483177, '__ci_last_regenerate|i:1588483177;'),
 ('1nkte6lm8fs1d4e5gpg0g0p1528ggoir', '::1', 1589084373, '__ci_last_regenerate|i:1589084373;nik|s:1:\"2\";level|s:5:\"Clerk\";'),
@@ -66,12 +69,16 @@ INSERT INTO `ci_sessions` (`id`, `ip_address`, `timestamp`, `data`) VALUES
 ('5a5kmi01csquccri3u2fmcronab7lkfu', '::1', 1589041810, '__ci_last_regenerate|i:1589041810;nik|s:3:\"123\";level|s:10:\"Supervisor\";'),
 ('5dng5rb3dpeo83739ptc9isvnovhimjr', '::1', 1588778880, '__ci_last_regenerate|i:1588778818;'),
 ('5eftu3lorne0hah0fvusu2j4392kvnun', '::1', 1589051795, '__ci_last_regenerate|i:1589051795;nik|s:1:\"1\";level|N;'),
+('5kd5r8stjt90ltg7af9i2gcc9pt96mld', '::1', 1591013647, '__ci_last_regenerate|i:1591013647;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
 ('5qcuss1ide8s353po9fv1p7tld6gci9l', '::1', 1589054288, '__ci_last_regenerate|i:1589054288;nik|s:1:\"1\";level|N;'),
+('5t8l38l812riukjm5b3essb1dlifo3ac', '::1', 1590213440, '__ci_last_regenerate|i:1590213440;'),
 ('631m6maks09vooso3lmca43hnvc08qet', '::1', 1588954489, '__ci_last_regenerate|i:1588954489;nik|s:3:\"123\";'),
+('63rddengnb21q6qa1cdoiaav1nlrg811', '::1', 1591005806, '__ci_last_regenerate|i:1591005806;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
 ('64qsjl2nm6vg9r8f9nop4t2k7sugsp1f', '::1', 1588957404, '__ci_last_regenerate|i:1588957404;nik|s:3:\"123\";'),
 ('671579n9m3hrne5nq8m86ol9chv9ehif', '::1', 1589080970, '__ci_last_regenerate|i:1589080892;nik|s:1:\"1\";level|N;'),
 ('6dh9ibhrj916s1j4h33627rum65ns3na', '::1', 1588778818, '__ci_last_regenerate|i:1588778818;'),
 ('6i9s3v3f4f58kvsm710j27t18e1qa5vu', '::1', 1588485478, '__ci_last_regenerate|i:1588485478;'),
+('6iovdt0hgrb0sghnht468qc7v5m30ao1', '::1', 1591004570, '__ci_last_regenerate|i:1591004570;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
 ('6j65488vjllosg2221oprmma7f4btqs6', '::1', 1589089294, '__ci_last_regenerate|i:1589089294;nik|s:1:\"2\";level|s:5:\"Clerk\";'),
 ('6pjpjh0q4nhfica4f5i9rf5hs2fng9p3', '::1', 1589054669, '__ci_last_regenerate|i:1589054669;nik|s:1:\"1\";level|N;'),
 ('6qsg7h1gkpp77hke5o799ekbldfrskvo', '::1', 1588923514, '__ci_last_regenerate|i:1588923514;'),
@@ -104,12 +111,17 @@ INSERT INTO `ci_sessions` (`id`, `ip_address`, `timestamp`, `data`) VALUES
 ('bpfnio06h1mo2hm1lv17a3vgvu3g3ci9', '::1', 1588484361, '__ci_last_regenerate|i:1588484361;'),
 ('btorjff275cn4qjavleuid2gkbrt9vrr', '::1', 1588867889, '__ci_last_regenerate|i:1588867889;'),
 ('c0qcs5k15ktj0javgo4cglpiqrq1s99u', '::1', 1588964027, '__ci_last_regenerate|i:1588963991;nik|s:3:\"123\";level|s:10:\"Supervisor\";'),
+('ce2g8hdah8s42m6k506s68c346sd7c9b', '::1', 1592018055, '__ci_last_regenerate|i:1592018055;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
+('cmvmp2t9f72b7r1t12aags0uu8muf4fj', '::1', 1591012675, '__ci_last_regenerate|i:1591012675;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
 ('cootbdtr220n1k1h2723vcr7e51u6abp', '::1', 1588494263, '__ci_last_regenerate|i:1588494263;'),
+('d48r1mi893ds4vg0pun8q4l2ra962e7v', '::1', 1592017391, '__ci_last_regenerate|i:1592017391;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
 ('dov13voi8q6kv8eoj6p173qlqfpjmgr2', '::1', 1589082335, '__ci_last_regenerate|i:1589082335;nik|s:1:\"2\";level|N;'),
 ('dsnhi5uetadm1nsh6avmaa6igq8f1444', '::1', 1588862420, '__ci_last_regenerate|i:1588862420;'),
 ('e82cntlhn3q9iljoqgnqpvvntb00vftb', '::1', 1589043425, '__ci_last_regenerate|i:1589043425;nik|s:3:\"123\";level|s:10:\"Supervisor\";'),
 ('efkqgm0qfiaht6kta1la62nhv7psoa3u', '::1', 1589052101, '__ci_last_regenerate|i:1589052101;nik|s:1:\"1\";level|N;'),
 ('ej5670dfgijj4mr6piutd7kavkfel1f5', '::1', 1589042861, '__ci_last_regenerate|i:1589042861;nik|s:3:\"123\";level|s:10:\"Supervisor\";'),
+('eop3qqmodvk6d8kko5m4fn95gd0mt6ts', '::1', 1591014276, '__ci_last_regenerate|i:1591014276;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
+('eqsosv49dcpdm9ampgcise0v2mpg2dmm', '::1', 1591013963, '__ci_last_regenerate|i:1591013963;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
 ('eta35um09jr8066d9h2re9cnjl4grobu', '::1', 1588497311, '__ci_last_regenerate|i:1588497311;'),
 ('eurbpobbpkaatr1n9jr6k23l4bg0a37m', '::1', 1589083758, '__ci_last_regenerate|i:1589083758;nik|s:1:\"2\";level|N;'),
 ('fjm9j6dr9dmeice0g8obp7nj43ea0tv3', '::1', 1589894466, '__ci_last_regenerate|i:1589894456;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
@@ -119,6 +131,7 @@ INSERT INTO `ci_sessions` (`id`, `ip_address`, `timestamp`, `data`) VALUES
 ('g6f2oaqpofoi9arpne6c1b95mo91m405', '::1', 1589037582, '__ci_last_regenerate|i:1589037582;nik|s:3:\"123\";level|s:10:\"Supervisor\";'),
 ('gaajvpfcu5n76qoaqrthu43ld4e4bn26', '::1', 1589086166, '__ci_last_regenerate|i:1589086166;nik|s:1:\"2\";level|s:5:\"Clerk\";'),
 ('geqes9rqg7sb3df5brcufenh0vbeolpc', '::1', 1588741592, '__ci_last_regenerate|i:1588741592;'),
+('goi80qahgn9hc2h87r3scrfp8vh88k0v', '::1', 1592036117, '__ci_last_regenerate|i:1592036117;'),
 ('gopvc1c0hk8flfl6num0pkqg9fnjngpv', '::1', 1588490552, '__ci_last_regenerate|i:1588490552;'),
 ('h13krf07i2vl26v8jevi8a1g507milvd', '::1', 1588925779, '__ci_last_regenerate|i:1588925779;'),
 ('h8d96l3rtt7148v4oho4oe70kciqu6a1', '::1', 1588924595, '__ci_last_regenerate|i:1588924595;'),
@@ -130,6 +143,7 @@ INSERT INTO `ci_sessions` (`id`, `ip_address`, `timestamp`, `data`) VALUES
 ('ibju0h3fmno02r42d93i1cr3a29dfe5u', '::1', 1588927895, '__ci_last_regenerate|i:1588927895;'),
 ('ieas8lmlhiq302kl8nf3n32a94dsep2i', '::1', 1588483897, '__ci_last_regenerate|i:1588483897;'),
 ('ifcpbsp0hidsgubg7j0ts9thvooe4vbb', '::1', 1588953058, '__ci_last_regenerate|i:1588953058;nik|s:3:\"123\";'),
+('imtqo5qb05jnr2l5gb7d26b66fcdojm6', '::1', 1591005000, '__ci_last_regenerate|i:1591005000;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
 ('is6b4dd44337u8ig6lcdp22bctcc2erl', '::1', 1589050736, '__ci_last_regenerate|i:1589050736;nik|s:3:\"123\";level|s:10:\"Supervisor\";'),
 ('is827ckftji7vmauhaa33nib9ibsp7u1', '::1', 1588963666, '__ci_last_regenerate|i:1588963666;nik|s:3:\"123\";level|s:10:\"Supervisor\";'),
 ('j38icsv8keu6bv5mubrp80ftsfql2sdc', '::1', 1588923881, '__ci_last_regenerate|i:1588923881;'),
@@ -139,8 +153,10 @@ INSERT INTO `ci_sessions` (`id`, `ip_address`, `timestamp`, `data`) VALUES
 ('jsn2rkdn3pfsdkf0r6c8j2ngbeq3vv3n', '::1', 1589036801, '__ci_last_regenerate|i:1589036801;nik|s:3:\"123\";level|s:10:\"Supervisor\";'),
 ('jvfe0iihm80vk59anj5s5bt4ib2882dq', '::1', 1589041143, '__ci_last_regenerate|i:1589041143;nik|s:3:\"123\";level|s:10:\"Supervisor\";'),
 ('k2nn79844p313hklqesvgfak5s46tjv1', '::1', 1588862090, '__ci_last_regenerate|i:1588862090;'),
+('k3c609aefv3li4c4m3rokb3403d4t74i', '::1', 1591418323, '__ci_last_regenerate|i:1591418323;'),
 ('kc6ndqtv7rql11pu0peg9mttaovgq5cd', '::1', 1588953658, '__ci_last_regenerate|i:1588953658;nik|s:3:\"123\";'),
 ('kdvt3umq1rgj701kv8fn9oak7p7k59mq', '::1', 1589098255, '__ci_last_regenerate|i:1589098255;nik|s:1:\"2\";level|s:5:\"Clerk\";'),
+('kg6kiqvld7trqitiu2oo7vuq2arl0spu', '::1', 1591013334, '__ci_last_regenerate|i:1591013334;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
 ('kj3nlmlpak5hiq30ul5e4nviuvhdic8d', '::1', 1589105111, '__ci_last_regenerate|i:1589105111;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
 ('ktgabugjkqvhap6amilsa3siukrmif5u', '::1', 1589041451, '__ci_last_regenerate|i:1589041451;nik|s:3:\"123\";level|s:10:\"Supervisor\";'),
 ('l3sq50oef8l42i1qvrcridlloass8n4t', '::1', 1589055406, '__ci_last_regenerate|i:1589055406;nik|s:1:\"1\";level|N;'),
@@ -149,14 +165,18 @@ INSERT INTO `ci_sessions` (`id`, `ip_address`, `timestamp`, `data`) VALUES
 ('lf8qnb3oh09sjhqsko43hqlbkn2se67a', '::1', 1589080892, '__ci_last_regenerate|i:1589080892;nik|s:1:\"1\";level|N;'),
 ('lg6mvn4ieih2bbprtii3ddf09h1b9bsc', '::1', 1589391188, '__ci_last_regenerate|i:1589391015;nik|s:1:\"3\";level|s:5:\"Clerk\";'),
 ('m0qmhcjnbn0ejf95fplpadl1vkbi65s5', '::1', 1589080521, '__ci_last_regenerate|i:1589080521;nik|s:1:\"1\";level|N;'),
+('m8oi87t34q31livji4n0t5udqf007v5m', '::1', 1591014569, '__ci_last_regenerate|i:1591014276;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
 ('mp2h32t720dpler8l4h8k7pspblp6ale', '::1', 1589046937, '__ci_last_regenerate|i:1589046937;nik|s:3:\"123\";level|s:10:\"Supervisor\";'),
 ('mqbi4icfud9eea1de2r0o2v5vn3fatjd', '::1', 1589038576, '__ci_last_regenerate|i:1589038576;nik|s:3:\"123\";level|s:10:\"Supervisor\";'),
 ('mrmlj3rclb0mb69249a1qef0kenko1iv', '::1', 1588954827, '__ci_last_regenerate|i:1588954827;nik|s:3:\"123\";'),
 ('n57ausqtuqfeku6hvkafngv77cv3q3rr', '::1', 1588959411, '__ci_last_regenerate|i:1588959411;nik|s:3:\"456\";level|s:7:\"Finance\";'),
 ('nf1vfjujb4rge4f47jtrkefe19151dlc', '::1', 1589086473, '__ci_last_regenerate|i:1589086473;nik|s:1:\"2\";level|s:5:\"Clerk\";'),
 ('nfbt2g2de59mcdt6m5ha5h9igahnhnme', '::1', 1588486160, '__ci_last_regenerate|i:1588486160;'),
+('nfr07e8lr3ad8egjqug9e5jeolrle811', '::1', 1591152162, '__ci_last_regenerate|i:1591152162;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
 ('nknphq57or4088l4q3m6r35do2v6gg8v', '::1', 1589045753, '__ci_last_regenerate|i:1589045753;nik|s:3:\"123\";level|s:10:\"Supervisor\";'),
+('nl7dh5q8qfvc8qvncejh0fflddoalhnb', '::1', 1591004112, '__ci_last_regenerate|i:1591004112;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
 ('nsaerdlon7r7er431j95bj1cqjo2b3tc', '::1', 1588493083, '__ci_last_regenerate|i:1588493083;'),
+('o4dv0qlk8fd4nvvf84blvvsd9f0g6sae', '::1', 1592017744, '__ci_last_regenerate|i:1592017744;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
 ('o79ajr9ktimnghj7a2jbjnroos9ol8qh', '::1', 1588861481, '__ci_last_regenerate|i:1588861481;'),
 ('ogtfsh7a382trogab2c7u1mput5gfc2g', '::1', 1589045407, '__ci_last_regenerate|i:1589045407;nik|s:3:\"123\";level|s:10:\"Supervisor\";'),
 ('ojkj6gphpg7527uq2l9u7sn8berhc4cn', '::1', 1588490879, '__ci_last_regenerate|i:1588490879;'),
@@ -167,19 +187,33 @@ INSERT INTO `ci_sessions` (`id`, `ip_address`, `timestamp`, `data`) VALUES
 ('p1qo140h5mdm8t7eukadm9fkok04t2j8', '::1', 1589085630, '__ci_last_regenerate|i:1589085630;nik|s:1:\"2\";level|s:5:\"Clerk\";'),
 ('pav01u4c1aum80p13hadpqatj60jti0h', '::1', 1589392613, '__ci_last_regenerate|i:1589392606;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
 ('peuif75s4bc95a3f7nqdtkl7qjmg60pj', '::1', 1589040259, '__ci_last_regenerate|i:1589040259;nik|s:3:\"789\";level|s:5:\"Clerk\";'),
+('phb3l14qbqorbema4hib3pegp0fmnq1d', '::1', 1591011983, '__ci_last_regenerate|i:1591011983;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
 ('phiu7slaric9qs0gm71ekghabfirleaa', '::1', 1588928307, '__ci_last_regenerate|i:1588928307;'),
 ('q7p00eeus81vdeud4epigpso3dqc70aa', '::1', 1589035618, '__ci_last_regenerate|i:1589035618;nik|s:3:\"123\";level|s:10:\"Supervisor\";'),
 ('r2ca77qsu6b76h4cqthaohvpqaem8bkh', '::1', 1589050425, '__ci_last_regenerate|i:1589050425;nik|s:3:\"123\";level|s:10:\"Supervisor\";'),
+('r3odcqk62g9iok7j578g8rpl3fopqum9', '::1', 1592017058, '__ci_last_regenerate|i:1592017058;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
+('r8r25un92sin62cqiqib5nca84135h1e', '::1', 1591152165, '__ci_last_regenerate|i:1591152162;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
+('regqonq0r3qbm8dn9mu724cv237pgb57', '::1', 1591056862, '__ci_last_regenerate|i:1591056618;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
 ('rkn74hpn7d3hs66o3tnetm5no84cge9k', '::1', 1589052437, '__ci_last_regenerate|i:1589052437;nik|s:1:\"1\";level|N;'),
 ('rueqrgvnoqvinu4okie1o102o95hft5m', '::1', 1589042511, '__ci_last_regenerate|i:1589042511;nik|s:3:\"123\";level|s:10:\"Supervisor\";'),
 ('s0obc2kdhka8ft4c3cro4sbpu8c02ted', '::1', 1588493902, '__ci_last_regenerate|i:1588493902;'),
+('s33vrh4vgjtve2k76bfa3agvairm5vcv', '::1', 1591026726, '__ci_last_regenerate|i:1591026726;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
+('s4fpch0mf8tu1inpn66edii1sek5qf24', '::1', 1592016757, '__ci_last_regenerate|i:1592016757;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
 ('s5cqcknqat9tk995fvump2e9itp96d7o', '::1', 1589044236, '__ci_last_regenerate|i:1589044236;nik|s:3:\"123\";level|s:10:\"Supervisor\";'),
+('s6brtvhtl023o0k6c11pk9ovmmd9h52v', '::1', 1591006137, '__ci_last_regenerate|i:1591006137;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
+('s709o9qdolbja1pdclo63csv4m6lkomi', '::1', 1592035939, '__ci_last_regenerate|i:1592035939;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
 ('shavbs9e3f81g2kmmfekfhjrjj388260', '::1', 1589045030, '__ci_last_regenerate|i:1589045030;nik|s:3:\"123\";level|s:10:\"Supervisor\";'),
+('smfc7407jae0rp5nl0gc0100kq2cdl5i', '::1', 1591056618, '__ci_last_regenerate|i:1591056618;'),
 ('sqm3pl7us0b9s72id20t7uhi022ela70', '::1', 1589046104, '__ci_last_regenerate|i:1589046104;nik|s:3:\"123\";level|s:10:\"Supervisor\";'),
+('svke8ajueobaq0in6eqji63mhegpm7es', '::1', 1591013033, '__ci_last_regenerate|i:1591013033;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
 ('t32ee8h92hgjpo6migtjbcep24dm18i6', '::1', 1589055093, '__ci_last_regenerate|i:1589055093;nik|s:1:\"1\";level|N;'),
 ('tcsjs2jmd13hbjvmrhsvdammvflcn2di', '::1', 1588962617, '__ci_last_regenerate|i:1588962617;nik|s:3:\"789\";level|s:5:\"Clerk\";'),
+('tiq62ud04fdst1ia484tlgi30071ec6l', '::1', 1591026867, '__ci_last_regenerate|i:1591026726;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
+('u312d8rpoqar0pt3spmvve1sbd6tri54', '::1', 1591016282, '__ci_last_regenerate|i:1591016193;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
 ('u5ohmi4s2r772n356r28gslek4apcbfl', '::1', 1589049690, '__ci_last_regenerate|i:1589049690;nik|s:3:\"123\";level|s:10:\"Supervisor\";'),
+('urjjo3fn8grimthimj1vdcnujeqipqhb', '::1', 1591012359, '__ci_last_regenerate|i:1591012359;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
 ('v51fcokr9b4bp3lqm408hlkucgoldvpi', '::1', 1588741782, '__ci_last_regenerate|i:1588741592;'),
+('va0gndk30f7osgv9tr206npgtml34eaq', '::1', 1591003776, '__ci_last_regenerate|i:1591003776;nik|s:1:\"1\";level|s:10:\"Supervisor\";'),
 ('vg0oss5j0bcsmkdi5erp9ifhcbjh6ovp', '::1', 1589049367, '__ci_last_regenerate|i:1589049367;nik|s:3:\"123\";level|s:10:\"Supervisor\";'),
 ('vmdhr39q2tjgeclrelobr02ba30i4v06', '::1', 1588868299, '__ci_last_regenerate|i:1588868225;'),
 ('vnblog9mhqqhku42m94n60fb3r48j63h', '::1', 1589036137, '__ci_last_regenerate|i:1589036137;nik|s:3:\"123\";level|s:10:\"Supervisor\";'),
@@ -203,6 +237,50 @@ CREATE TABLE `migrations` (
 
 INSERT INTO `migrations` (`version`) VALUES
 (5);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `r_divisi`
+--
+
+CREATE TABLE `r_divisi` (
+  `id` int(11) NOT NULL,
+  `kategori` varchar(50) DEFAULT NULL,
+  `des` varchar(50) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `r_divisi`
+--
+
+INSERT INTO `r_divisi` (`id`, `kategori`, `des`) VALUES
+(5, 'Divisi', 'PI'),
+(7, 'Jabatan', 'Leader'),
+(9, 'Jabatan', 'Supervisor'),
+(10, 'Divisi', 'IT'),
+(11, 'Divisi', 'LP'),
+(12, 'Jabatan', 'Clerk');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `r_param`
+--
+
+CREATE TABLE `r_param` (
+  `id_param` varchar(50) NOT NULL,
+  `des` varchar(50) NOT NULL,
+  `isi` varchar(10) NOT NULL,
+  `isi2` varchar(10) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `r_param`
+--
+
+INSERT INTO `r_param` (`id_param`, `des`, `isi`, `isi2`) VALUES
+('LKK', 'Liter ke Kilometer', '1', '200');
 
 -- --------------------------------------------------------
 
@@ -375,7 +453,7 @@ CREATE TABLE `t_claim_bensin` (
 --
 
 INSERT INTO `t_claim_bensin` (`id_claim_bensin`, `claim_by`, `tanggal_pengisian`, `kode_spbu`, `km_awal`, `km_akhir`, `liter`, `rupiah`, `gambar_struk`, `status_claim`, `keterangan_reject`, `tanggal_claim`) VALUES
-('KBNSNBC1F3A1', '3', '2020-05-13', 'JSKD.W4TT', 1500, 1600, 2, '20000', 'assets/images/claim/Klaim-Bensin-2020-05-14-123014-5ebc2ebc1a9cb.jpeg', 4, 'oleh Supervisor: ', '2020-05-13 17:30:36');
+('KBNSNCAB8719', '2', '2020-06-09', 'JSKD.W4TT', 1500, 1800, 2, '20000', 'assets/images/claim/Klaim-Bensin-2020-06-01-104601-5ed522cab3a56.jpg', 3, NULL, '2020-06-01 15:46:18');
 
 -- --------------------------------------------------------
 
@@ -420,8 +498,7 @@ CREATE TABLE `t_users_detail` (
 
 INSERT INTO `t_users_detail` (`nik`, `nama_lengkap`, `no_plat`, `divisi`, `jabatan`, `level`, `password`, `active`, `joined`) VALUES
 ('1', 'ADE FATHUDIN', '2013035340', 'PI', 'Supervisor', 'Supervisor', '202cb962ac59075b964b07152d234b70', 1, '2020-05-09 19:04:47'),
-('2', 'HANUNG TIADI', '0037207', 'Finance', 'Supervisor', 'Finance', '202cb962ac59075b964b07152d234b70', 1, '2020-05-22 15:08:09'),
-('3', 'ABDULLAH FAQIH', '0037207', 'PI', 'Clerk', 'Clerk', '202cb962ac59075b964b07152d234b70', 1, '2020-05-13 17:30:12');
+('2', 'HANUNG TIADI', '0037207', 'IT', 'Clerk', 'Clerk', '202cb962ac59075b964b07152d234b70', 0, '2020-06-06 04:23:54');
 
 --
 -- Indexes for dumped tables
@@ -432,6 +509,18 @@ INSERT INTO `t_users_detail` (`nik`, `nama_lengkap`, `no_plat`, `divisi`, `jabat
 --
 ALTER TABLE `ci_sessions`
   ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `r_divisi`
+--
+ALTER TABLE `r_divisi`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `r_param`
+--
+ALTER TABLE `r_param`
+  ADD PRIMARY KEY (`id_param`);
 
 --
 -- Indexes for table `r_toko`
@@ -457,6 +546,15 @@ ALTER TABLE `t_claim_parkir`
 ALTER TABLE `t_users_detail`
   ADD PRIMARY KEY (`nik`);
 
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `r_divisi`
+--
+ALTER TABLE `r_divisi`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
